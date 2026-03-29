@@ -1,0 +1,4 @@
+com.stillhere.app.test.app-androidTest-0 C:\Users\ibriy\Desktop\stillHere\StillHere3\StillHere2\app\build\generated\res\resValues\androidTest\debug
+com.stillhere.app.test.app-mergeDebugAndroidTestResources-1 C:\Users\ibriy\Desktop\stillHere\StillHere3\StillHere2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.stillhere.app.test.app-mergeDebugAndroidTestResources-2 C:\Users\ibriy\Desktop\stillHere\StillHere3\StillHere2\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.stillhere.app.test.app-merged_res-3 C:\Users\ibriy\Desktop\stillHere\StillHere3\StillHere2\app\build\intermediates\merged_res\debugAndroidTest
