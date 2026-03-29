@@ -43,16 +43,29 @@ Requires Android 7.0 (API 24) or higher.
 
 ---
 
+## Alert System
+
+Still Here includes a tiered alert system that activates when check-ins stop. No special permissions are required — alerts open your phone's built-in SMS app or dialer with everything pre-filled. You confirm and send. Nothing happens silently without you.
+
+| Day | What triggers |
+|-----|--------------|
+| 2   | Gentle notification — *"We're thinking of you"* |
+| 3–7 (configurable) | Notification with one-tap SMS button to your personal contact |
+| 7   | Persistent notification with direct call and SMS buttons for the Belgian Crisis Line (0800 32 123) |
+| 10  | Persistent notification with call button for 112 — **opt-in only, explicit setting required** |
+
+The 112 escalation requires deliberate opt-in in Settings. A warning is shown before it can be enabled.
+
+### Why no silent background SMS?
+Android flags apps that send SMS silently as potentially harmful. More importantly, a human confirmation before a message goes to emergency services is the right design — this app shouldn't act without you.
+
 ## Roadmap
 
-### v1.1 — Emergency Contact Alerts *(planned)*
-If the button goes unpressed for a set number of days (default: 7), the app will automatically alert a designated contact — either a close person or an emergency number. The goal is a quiet safety net: if something is wrong and you can't press the button, someone will know.
+### v1.2 — Snooze / I'm Okay
+A one-tap snooze for when you've missed check-ins but are safe — travelling, phone died, busy week. Silences alerts for a configurable period without resetting the streak.
 
-Planned implementation:
-- User-configurable grace period (e.g. 3, 5, or 7 days)
-- Option to set a personal contact or a crisis/emergency number
-- SMS or call trigger after the grace period expires
-- A simple "I'm okay, just busy" snooze option to silence the alert without resetting the streak
+### v1.3 — Trusted Contact Companion
+Opt-in flow for the person receiving the alert, so they have context and know what to do when the notification arrives.
 
 ---
 
